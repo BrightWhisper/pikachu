@@ -35,11 +35,19 @@ body{
 }
 .actions>button{
   margin: 10px;
-  background: #ddd;
   padding: 8px 10px;
-  border: none;
+	/* width: 270px;
+	height: 40px; */
+	border-width: 0px;
+	border-radius: 3px;
+	background: #1E90FF;
+	cursor: pointer;
+	outline: none;
+	font-family: Microsoft YaHei;
+	color: white;
 }
 .actions>button.active{
+  background: #5599FF;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
 .actions>button:focus{
